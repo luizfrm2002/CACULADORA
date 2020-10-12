@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         display = findViewById(R.id.textview_numero);
     }
 
-    /*NUMEROS DA CALCULADORA.*/
+    /*NUMEROS DA CALCULADORA*/
 
     public void onClickBotao1(View v) {
         atualizarNumeroDigitado("1");
