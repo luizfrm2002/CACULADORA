@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*ATRIBUTOS*/
+    /*ATRIBUTOS.*/
 
     private TextView display;
     private String primeironumeo = "";
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         display = findViewById(R.id.textview_numero);
     }
 
-    /*NUMEROS DA CALCULADORA*/
+    /*NUMEROS DA CALCULADORA.*/
 
     public void onClickBotao1(View v) {
         atualizarNumeroDigitado("1");
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    /*OPERACOES DA CALCULADORA*/
+    /*OPERACOES DA CALCULADORA.*/
 
     public void onClickadicao(View v) {
 
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         operacao = "";
     }
 
-    /*CONCLUSAO DA CONTA*/
+    /*CONCLUSAO DA CONTA.*/
 
     public void onClickigual(View v) {
 
@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*METODOS*/
+    /*METODOS.*/
 
     private void atualizarDisplay(String texto) {
         String textoDisplay = display.getText().toString();
